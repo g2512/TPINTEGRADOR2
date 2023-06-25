@@ -200,7 +200,20 @@ section{
   justify-content: space-around;
     }
 
+.ticketsCateg{
+    width:100%;
+    display:flex;
+   background-color: aqua;
+   justify-content: space-around;
 
+}
+.Ttext{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    text-align: center;
+}
 
  @media screen and (max-width:480px) {.card-float {/*position: static;top:20%;*/left:0%;text-align: center;width:100%;}
                                       nav {float:none;width:100%;background-color: aqua;} 
